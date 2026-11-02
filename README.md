@@ -14,7 +14,7 @@ This repository accompanies the NeurIPS 2026 accepted paper **"Timing Is All You
 ## File Overview
 
 ### `SpikeCore.py`
-Defines the **SpikeCore unit** — the proposed recurrent spiking module at the heart of the pipeline. This is the primary architectural contribution of the paper. SpikeCore integrates learnable temporal delay mechanisms (hard polarity-level shift and differentiable soft delay mixture), parameter-free temporal gain control (PFTGC), and adaptive membrane dynamics into a self-contained, reusable PyTorch module. This file can be imported independently of the rest of the codebase.
+Defines the **SpikeCore unit** — the proposed recurrent spiking module at the heart of the pipeline. This is the primary architectural contribution of the paper. SpikeCore integrates learnable membrane decay, spike-history-dependent threshold modulation, and sigmoid-based surrogate gradients into a self-contained, reusable PyTorch module. This file can be imported independently of the rest of the codebase.
 
 ### `backbone.py`
 Contains the three full model architectures, one per dataset:
