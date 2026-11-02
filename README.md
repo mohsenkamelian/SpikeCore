@@ -1,5 +1,9 @@
 # SpikeCore — NeurIPS 2026
 
+![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-blue)
+[![PyTorch](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 This repository accompanies the NeurIPS 2026 accepted paper **"Timing Is All You Need: SpikeCore, Learnable Delays, and Gain Control for Neuromorphic Classification"**. It contains the core implementation of the proposed SpikeCore unit and the full SpikeCore-DVS pipeline, evaluated on DVSGesture, Spiking Heidelberg Digits (SHD), and Spiking Speech Commands (SSC).
 **Authors:** Mohsen Kamelian Rad, Sotiris Moschoyiannis, Roman Bauer
 ---
