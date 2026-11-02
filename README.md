@@ -1,4 +1,4 @@
-# SpikeCore-DVS — NeurIPS 2026
+# SpikeCore — NeurIPS 2026
 
 This repository accompanies the NeurIPS 2026 accepted paper **"Timing Is All You Need: SpikeCore, Learnable Delays, and Gain Control for Neuromorphic Classification"**. It contains the core implementation of the proposed SpikeCore unit and the full SpikeCore-DVS pipeline, evaluated on DVSGesture, Spiking Heidelberg Digits (SHD), and Spiking Speech Commands (SSC).
 **Authors:** Mohsen Kamelian Rad, Sotiris Moschoyiannis, Roman Bauer
