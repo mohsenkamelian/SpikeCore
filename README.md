@@ -1,4 +1,4 @@
-# SpikeCore-DVS — Supplementary Code
+# SpikeCore-DVS — NeurIPS 2026
 
 This repository accompanies the NeurIPS 2026 accepted paper **"Timing Is All You Need: SpikeCore, Learnable Delays, and Gain Control for Neuromorphic Classification"**. It contains the core implementation of the proposed SpikeCore unit and the full SpikeCore-DVS pipeline, evaluated on DVSGesture, Spiking Heidelberg Digits (SHD), and Spiking Speech Commands (SSC).
 **Authors:** Mohsen Kamelian Rad, Sotiris Moschoyiannis, Roman Bauer
@@ -113,7 +113,6 @@ config = {
 - The codebase uses standard PyTorch throughout; no custom CUDA kernels are required.
 - Results may vary slightly from the paper depending on hardware and driver version due to non-determinism in certain CUDA operations, but should be within ±0.3% of reported figures with the provided seed.
 
-```markdown
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE)
 for details.
