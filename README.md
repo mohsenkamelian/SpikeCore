@@ -35,6 +35,7 @@ See **Usage** below for instructions.
 ```
 Python >= 3.9
 PyTorch >= 2.0
+torchvision
 tonic
 numpy
 tqdm
