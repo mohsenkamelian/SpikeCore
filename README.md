@@ -5,7 +5,7 @@ This repository accompanies the NeurIPS 2026 accepted paper **"Timing Is All You
 ---
 ## Architecture
 
-![SpikeCore architecture](Full_Pipeline.jpg)
+![SpikeCore architecture](Full_pipeline.jpg)
 ## File Overview
 
 ### `SpikeCore.py`
